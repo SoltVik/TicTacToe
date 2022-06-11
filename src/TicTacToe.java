@@ -58,10 +58,10 @@ public class TicTacToe extends JPanel {
                     int clickPos = r1 * size + c1;
 
                     if (tiles[clickPos] == 0) {
-                        if (e.getButton() == 1 && isXTurn) {
+                        if (isXTurn) {
                             tiles[clickPos] = xValue;
                             isXTurn = false;
-                        } else if (e.getButton() == 3 && !isXTurn) {
+                        } else {
                             tiles[clickPos] = oValue;
                             isXTurn = true;
                         }

@@ -3,5 +3,5 @@ Tic Tac Toe game written on Java
 
 ### Rules for two players:
   - X always start first
-  - Left click put X in cell
-  - Right click put 0 in cell
+  - Click put X or 0 in cell
+  - Follow the text hints, who's turn
